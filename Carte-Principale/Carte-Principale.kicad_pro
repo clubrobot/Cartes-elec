@@ -465,7 +465,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gbr/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -681,7 +681,7 @@
     ],
     [
       "ec3b2e47-1720-4ba3-b32d-adf5bc711683",
-      "Actionneurs"
+      "Actionneurs + sensors"
     ],
     [
       "d641269b-1187-4929-99a2-e1e683ab1f5a",

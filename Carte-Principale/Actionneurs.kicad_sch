@@ -3195,6 +3195,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 137.16) (xy 161.29 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04f0296c-6a63-4bb2-9a11-7cda233ced6a")
+	)
+	(wire
+		(pts
 			(xy 247.65 49.53) (xy 256.54 49.53)
 		)
 		(stroke
@@ -3342,6 +3352,16 @@
 			(type default)
 		)
 		(uuid "18cfa2c2-fe80-4feb-8d18-93b63adebc42")
+	)
+	(wire
+		(pts
+			(xy 156.21 134.62) (xy 161.29 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18e830fb-e07b-4247-8012-8ab0f7a52876")
 	)
 	(wire
 		(pts
@@ -3622,6 +3642,16 @@
 			(type default)
 		)
 		(uuid "4290b820-008e-4c88-8b3e-04d1312ffb93")
+	)
+	(wire
+		(pts
+			(xy 157.48 148.59) (xy 163.83 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "433c33fa-dc48-4c9d-8f24-2f7e83169a9a")
 	)
 	(wire
 		(pts
@@ -4575,6 +4605,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 139.7) (xy 161.29 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e285e9f5-9158-4e09-b377-15a346c1945b")
+	)
+	(wire
+		(pts
 			(xy 256.54 81.28) (xy 255.27 81.28)
 		)
 		(stroke
@@ -4773,8 +4813,29 @@
 		)
 		(uuid "ff62a3ad-1d95-4043-8513-6a10c61ff480")
 	)
+	(text "TODO: faire carte sensors"
+		(exclude_from_sim no)
+		(at 163.83 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2772d0d9-fd33-48d2-9164-d00a07158b90")
+	)
+	(text "revérif le sens\n\n"
+		(exclude_from_sim no)
+		(at 162.56 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5db71a62-2ff8-4f57-af52-3bd11989af60")
+	)
 	(label "PWM1"
 		(at 205.74 58.42 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4785,6 +4846,7 @@
 	)
 	(label "PWM13"
 		(at 250.19 100.33 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4795,6 +4857,7 @@
 	)
 	(label "PWM5"
 		(at 205.74 93.98 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4849,6 +4912,7 @@
 	)
 	(label "PWM0"
 		(at 205.74 49.53 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4859,6 +4923,7 @@
 	)
 	(label "PWM10"
 		(at 248.92 67.31 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4869,6 +4934,7 @@
 	)
 	(label "PWM8"
 		(at 248.92 49.53 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4890,6 +4956,7 @@
 	)
 	(label "PWM2"
 		(at 205.74 67.31 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4911,6 +4978,7 @@
 	)
 	(label "PWM11"
 		(at 248.92 76.2 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4921,6 +4989,7 @@
 	)
 	(label "PWM3"
 		(at 205.74 76.2 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5019,6 +5088,7 @@
 	)
 	(label "PWM15"
 		(at 250.19 110.49 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5029,6 +5099,7 @@
 	)
 	(label "PWM6"
 		(at 205.74 102.87 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5039,6 +5110,7 @@
 	)
 	(label "PWM12"
 		(at 248.92 85.09 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5060,6 +5132,7 @@
 	)
 	(label "PWM7"
 		(at 205.74 111.76 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5070,6 +5143,7 @@
 	)
 	(label "PWM9"
 		(at 248.92 58.42 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5080,6 +5154,7 @@
 	)
 	(label "PWM14"
 		(at 250.19 105.41 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5112,6 +5187,7 @@
 	)
 	(label "PWM4"
 		(at 205.74 85.09 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5120,7 +5196,7 @@
 		)
 		(uuid "ea702121-8223-421f-b943-3da828689cd6")
 	)
-	(hierarchical_label "SDA"
+	(hierarchical_label "SDA_Servo"
 		(shape bidirectional)
 		(at 124.46 66.04 180)
 		(fields_autoplaced yes)
@@ -5132,7 +5208,19 @@
 		)
 		(uuid "2ea2fb73-f11d-4f92-9dee-70767abd17aa")
 	)
-	(hierarchical_label "SCL"
+	(hierarchical_label "SDA_Sensors"
+		(shape bidirectional)
+		(at 163.83 151.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "375901f4-8e16-4ac2-b821-4f8d83c55153")
+	)
+	(hierarchical_label "SCL_Servo"
 		(shape bidirectional)
 		(at 124.46 63.5 180)
 		(fields_autoplaced yes)
@@ -5143,6 +5231,30 @@
 			(justify right)
 		)
 		(uuid "534d2550-c800-4663-b585-36203b70c405")
+	)
+	(hierarchical_label "AX12_DATA"
+		(shape bidirectional)
+		(at 156.21 134.62 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "699da362-674e-47b4-9c3b-cc200e0d2592")
+	)
+	(hierarchical_label "SCL_Sensors"
+		(shape bidirectional)
+		(at 163.83 153.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d28a3daf-8e1d-450f-bd61-bc7814e10c8d")
 	)
 	(symbol
 		(lib_id "Motor:Motor_Servo")
@@ -5833,7 +5945,7 @@
 	)
 	(symbol
 		(lib_id "power:+12VA")
-		(at 144.78 134.62 90)
+		(at 157.48 137.16 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5842,7 +5954,7 @@
 		(fields_autoplaced yes)
 		(uuid "21beb271-e4e0-4b2c-adc3-3e6929de64f9")
 		(property "Reference" "#PWR054"
-			(at 148.59 134.62 0)
+			(at 161.29 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5851,7 +5963,7 @@
 			)
 		)
 		(property "Value" "+12VA"
-			(at 140.97 134.6199 90)
+			(at 153.67 137.1599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5860,7 +5972,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 134.62 0)
+			(at 157.48 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5869,7 +5981,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 134.62 0)
+			(at 157.48 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5878,7 +5990,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12VA\""
-			(at 144.78 134.62 0)
+			(at 157.48 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7054,6 +7166,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 168.91 151.13 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c9c0e3b-579a-4c9f-b2b1-5e6eab691bc1")
+		(property "Reference" "J6"
+			(at 170.18 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Sensors"
+			(at 170.18 152.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 168.91 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c0b77237-881a-4ea1-848c-6a53a324117c")
+		)
+		(pin "3"
+			(uuid "ef55aa1d-966b-433a-8762-91d33fa9348c")
+		)
+		(pin "1"
+			(uuid "70680f34-0d7c-4c8d-98eb-bf0913079b37")
+		)
+		(instances
+			(project "Carte-Principale"
+				(path "/88b0dd29-ac24-4c5d-804c-fc642ecf6263/ec3b2e47-1720-4ba3-b32d-adf5bc711683"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5VA")
 		(at 255.27 60.96 90)
 		(unit 1)
@@ -8124,10 +8309,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "856ce6f3-0f7d-490f-bbdb-228fc8c27d81")
+			(uuid "856ce6f3-0f7d-490f-bbdb-228fc8c27d82")
 		)
 		(pin "2"
-			(uuid "d90b631e-8c08-4392-bd80-fc41dabbdbca")
+			(uuid "d90b631e-8c08-4392-bd80-fc41dabbdbcb")
 		)
 		(instances
 			(project "Carte-Principale"
@@ -8346,7 +8531,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 144.78 138.43 270)
+		(at 157.48 139.7 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8355,7 +8540,7 @@
 		(fields_autoplaced yes)
 		(uuid "a88ec263-cf45-4a5e-8498-a56e075673e7")
 		(property "Reference" "#PWR055"
-			(at 138.43 138.43 0)
+			(at 151.13 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8364,7 +8549,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 140.97 138.4299 90)
+			(at 153.67 139.6999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8373,7 +8558,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 138.43 0)
+			(at 157.48 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8382,7 +8567,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 138.43 0)
+			(at 157.48 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8391,7 +8576,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 138.43 0)
+			(at 157.48 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8867,10 +9052,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "856ce6f3-0f7d-490f-bbdb-228fc8c27d81")
+			(uuid "856ce6f3-0f7d-490f-bbdb-228fc8c27d83")
 		)
 		(pin "2"
-			(uuid "d90b631e-8c08-4392-bd80-fc41dabbdbca")
+			(uuid "d90b631e-8c08-4392-bd80-fc41dabbdbcc")
 		)
 		(instances
 			(project "Carte-Principale"
@@ -9016,6 +9201,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 157.48 148.59 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be2022a7-33fc-4ebe-a15b-8c1b8274ede1")
+		(property "Reference" "#PWR056"
+			(at 151.13 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 148.5899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 157.48 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e1d5707-ef86-45c0-814c-8433db52e037")
+		)
+		(instances
+			(project "Carte-Principale"
+				(path "/88b0dd29-ac24-4c5d-804c-fc642ecf6263/ec3b2e47-1720-4ba3-b32d-adf5bc711683"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 109.22 88.9 0)
 		(unit 1)
@@ -9068,10 +9320,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "856ce6f3-0f7d-490f-bbdb-228fc8c27d81")
+			(uuid "856ce6f3-0f7d-490f-bbdb-228fc8c27d84")
 		)
 		(pin "2"
-			(uuid "d90b631e-8c08-4392-bd80-fc41dabbdbca")
+			(uuid "d90b631e-8c08-4392-bd80-fc41dabbdbcd")
 		)
 		(instances
 			(project "Carte-Principale"
@@ -10109,10 +10361,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "856ce6f3-0f7d-490f-bbdb-228fc8c27d81")
+			(uuid "856ce6f3-0f7d-490f-bbdb-228fc8c27d85")
 		)
 		(pin "2"
-			(uuid "d90b631e-8c08-4392-bd80-fc41dabbdbca")
+			(uuid "d90b631e-8c08-4392-bd80-fc41dabbdbce")
 		)
 		(instances
 			(project "Carte-Principale"
@@ -10529,10 +10781,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "856ce6f3-0f7d-490f-bbdb-228fc8c27d81")
+			(uuid "856ce6f3-0f7d-490f-bbdb-228fc8c27d86")
 		)
 		(pin "2"
-			(uuid "d90b631e-8c08-4392-bd80-fc41dabbdbca")
+			(uuid "d90b631e-8c08-4392-bd80-fc41dabbdbcf")
 		)
 		(instances
 			(project "Carte-Principale"

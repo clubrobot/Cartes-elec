@@ -3307,7 +3307,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "eb310068-0eab-41f7-95c9-e7cb7c1351e8")
+			(uuid "eb310068-0eab-41f7-95c9-e7cb7c1351e9")
 		)
 		(instances
 			(project "Carte-Principale"
@@ -3621,7 +3621,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "43904b5a-1de7-405e-97ab-e33edf83b984")
+			(uuid "43904b5a-1de7-405e-97ab-e33edf83b985")
 		)
 		(instances
 			(project "Carte-Principale"
