@@ -580,6 +580,134 @@
 				)
 			)
 		)
+		(symbol "Connector:TestPoint_2Pole"
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_2Pole"
+				(at 0 -1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "2-polar test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_2Pole_0_1"
+				(circle
+					(center -1.778 0)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.778 0)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -1461,10 +1589,22 @@
 		(uuid "0c3cceda-b1c9-499d-9536-137ccc3b2457")
 	)
 	(junction
+		(at 63.5 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12982047-45bf-4425-ba55-85c6fe330e4e")
+	)
+	(junction
 		(at 100.33 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "16b3dce9-5e9c-433c-aaae-e528596ca61d")
+	)
+	(junction
+		(at 106.68 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c661be3-f6f3-4bc8-b9a5-276709e31b0e")
 	)
 	(junction
 		(at 101.6 124.46)
@@ -1495,6 +1635,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c52de54-00d6-40f9-a3a3-1ae066e6296c")
+	)
+	(junction
+		(at 63.5 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70a1301a-6d1a-4f93-acaa-881a08de4edd")
 	)
 	(junction
 		(at 68.58 104.14)
@@ -1557,6 +1703,12 @@
 		(uuid "eee04960-72fb-4aaa-abf5-29700ecb26d3")
 	)
 	(junction
+		(at 106.68 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef2928f0-4fc9-4fd4-93c7-688eabaf4bb6")
+	)
+	(junction
 		(at 147.32 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1616,7 +1768,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 151.13) (xy 104.14 151.13)
+			(xy 100.33 151.13) (xy 106.68 151.13)
 		)
 		(stroke
 			(width 0)
@@ -1676,6 +1828,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 104.14) (xy 68.58 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "234c6853-12ba-4e3b-a111-1a1bbb8328b6")
+	)
+	(wire
+		(pts
 			(xy 167.64 165.1) (xy 160.02 165.1)
 		)
 		(stroke
@@ -1683,16 +1845,6 @@
 			(type default)
 		)
 		(uuid "24421376-4b59-4fc0-91b1-1c6428b34c37")
-	)
-	(wire
-		(pts
-			(xy 63.5 156.21) (xy 68.58 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27d71761-72a5-497b-81fe-d956a486e176")
 	)
 	(wire
 		(pts
@@ -1716,6 +1868,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 99.06) (xy 107.95 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32990d82-268a-47a6-ba5d-ae45f6a2a207")
+	)
+	(wire
+		(pts
 			(xy 77.47 129.54) (xy 68.58 129.54)
 		)
 		(stroke
@@ -1736,13 +1898,33 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 99.06) (xy 104.14 99.06)
+			(xy 106.68 99.06) (xy 106.68 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38de64c8-e887-47a5-8c41-88f09f9e0ae8")
+	)
+	(wire
+		(pts
+			(xy 100.33 99.06) (xy 106.68 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "39fb43e1-d511-49f9-8e31-90e6713cd1bf")
+	)
+	(wire
+		(pts
+			(xy 60.96 156.21) (xy 63.5 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dab99cc-dff0-49cd-ae5c-dd5f34331283")
 	)
 	(wire
 		(pts
@@ -1753,6 +1935,16 @@
 			(type solid)
 		)
 		(uuid "3df1f6af-2f17-4cb6-9a45-6c0d9975e1ae")
+	)
+	(wire
+		(pts
+			(xy 106.68 151.13) (xy 107.95 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f3e0a46-ba06-437c-9531-4312bff3ca1b")
 	)
 	(wire
 		(pts
@@ -1976,6 +2168,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 133.35) (xy 63.5 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8acf56fb-ca67-4576-8320-1b95cc7ce562")
+	)
+	(wire
+		(pts
 			(xy 147.32 113.03) (xy 147.32 123.19)
 		)
 		(stroke
@@ -2176,6 +2378,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 156.21) (xy 68.58 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba6cf64b-b779-46be-883d-0d6321204141")
+	)
+	(wire
+		(pts
 			(xy 144.78 64.77) (xy 158.75 64.77)
 		)
 		(stroke
@@ -2256,7 +2468,17 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 104.14) (xy 68.58 104.14)
+			(xy 106.68 125.73) (xy 106.68 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dca6d265-7e4b-4e26-8c91-712d6bcd8bd0")
+	)
+	(wire
+		(pts
+			(xy 60.96 104.14) (xy 63.5 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2293,6 +2515,16 @@
 			(type default)
 		)
 		(uuid "e84caa58-9dcd-4695-a36d-99ad0ed5455c")
+	)
+	(wire
+		(pts
+			(xy 63.5 104.14) (xy 63.5 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec19362f-1daa-4d71-8f3c-6b5b51eaf264")
 	)
 	(wire
 		(pts
@@ -2514,7 +2746,7 @@
 	)
 	(hierarchical_label "DIR_MOTEUR_DROITE"
 		(shape input)
-		(at 63.5 156.21 180)
+		(at 60.96 156.21 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2524,9 +2756,9 @@
 		)
 		(uuid "1f409a72-e997-4a85-8b5f-55fb63ee106b")
 	)
-	(hierarchical_label "PWM_MOTEUR_GAUCHE"
+	(hierarchical_label "PWM_MOTEUR_GAUCHE_H"
 		(shape input)
-		(at 104.14 99.06 0)
+		(at 107.95 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2536,9 +2768,9 @@
 		)
 		(uuid "3cb6b691-7063-4768-9a29-6ec41eab3e0d")
 	)
-	(hierarchical_label "PWM_MOTEUR_DROITE"
+	(hierarchical_label "PWM_MOTEUR_DROITE_H"
 		(shape input)
-		(at 104.14 151.13 0)
+		(at 107.95 151.13 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2574,7 +2806,7 @@
 	)
 	(hierarchical_label "DIR_MOTEUR_GAUCHE"
 		(shape input)
-		(at 63.5 104.14 180)
+		(at 60.96 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2606,7 +2838,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ec2603a-35ed-4995-a773-7a1864ab0bb3")
-		(property "Reference" "U4"
+		(property "Reference" "U5"
 			(at 86.36 133.35 0)
 			(effects
 				(font
@@ -2670,7 +2902,7 @@
 		(instances
 			(project "Carte-Principale"
 				(path "/88b0dd29-ac24-4c5d-804c-fc642ecf6263/de945202-06d9-4619-881a-1edba2d78bfe"
-					(reference "U4")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -2686,7 +2918,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1023f7c6-8ede-4670-ba79-804aa90af981")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR038"
 			(at 64.77 73.66 0)
 			(effects
 				(font
@@ -2736,7 +2968,7 @@
 		(instances
 			(project "Carte-Principale"
 				(path "/88b0dd29-ac24-4c5d-804c-fc642ecf6263/de945202-06d9-4619-881a-1edba2d78bfe"
-					(reference "#PWR05")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -2752,7 +2984,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1065e44d-5728-470a-9333-d2273a662d53")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR040"
 			(at 148.59 91.44 0)
 			(effects
 				(font
@@ -2803,7 +3035,7 @@
 		(instances
 			(project "Carte-Principale"
 				(path "/88b0dd29-ac24-4c5d-804c-fc642ecf6263/de945202-06d9-4619-881a-1edba2d78bfe"
-					(reference "#PWR011")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -2819,7 +3051,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "167b1bc0-cfb5-4ea1-9c57-37b0afdc893a")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR041"
 			(at 176.53 91.44 0)
 			(effects
 				(font
@@ -2870,7 +3102,7 @@
 		(instances
 			(project "Carte-Principale"
 				(path "/88b0dd29-ac24-4c5d-804c-fc642ecf6263/de945202-06d9-4619-881a-1edba2d78bfe"
-					(reference "#PWR010")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -2886,7 +3118,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16f0fd32-e849-445c-960b-137f2a232a74")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 86.36 81.28 0)
 			(effects
 				(font
@@ -2950,7 +3182,7 @@
 		(instances
 			(project "Carte-Principale"
 				(path "/88b0dd29-ac24-4c5d-804c-fc642ecf6263/de945202-06d9-4619-881a-1edba2d78bfe"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -2966,7 +3198,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f3cffba-b22b-4e21-99b7-e51542e7789c")
-		(property "Reference" "U4"
+		(property "Reference" "U5"
 			(at 157.48 127 90)
 			(effects
 				(font
@@ -3030,7 +3262,7 @@
 		(instances
 			(project "Carte-Principale"
 				(path "/88b0dd29-ac24-4c5d-804c-fc642ecf6263/de945202-06d9-4619-881a-1edba2d78bfe"
-					(reference "U4")
+					(reference "U5")
 					(unit 2)
 				)
 			)
@@ -3045,7 +3277,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2d74e07d-7e13-41e2-9d14-1845084f196c")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR036"
 			(at 115.57 62.23 0)
 			(effects
 				(font
@@ -3096,7 +3328,7 @@
 		(instances
 			(project "Carte-Principale"
 				(path "/88b0dd29-ac24-4c5d-804c-fc642ecf6263/de945202-06d9-4619-881a-1edba2d78bfe"
-					(reference "#PWR06")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -3112,7 +3344,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e35ebe4-4427-4941-9d4d-8c05e78e440d")
-		(property "Reference" "C4"
+		(property "Reference" "C5"
 			(at 157.4736 158.75 90)
 			(effects
 				(font
@@ -3128,7 +3360,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 157.48 165.1 0)
 			(effects
 				(font
@@ -3164,7 +3396,7 @@
 		(instances
 			(project "Carte-Principale"
 				(path "/88b0dd29-ac24-4c5d-804c-fc642ecf6263/de945202-06d9-4619-881a-1edba2d78bfe"
-					(reference "C4")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -3196,7 +3428,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Carte moteur V1.0:DRV8844_BREAKOUT_BOARD"
+		(property "Footprint" "DRV8844:DRV8844_BREAKOUT_BOARD"
 			(at 100.33 64.77 0)
 			(effects
 				(font
@@ -3290,7 +3522,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30485ba4-b423-49e6-8291-6f5c361b7696")
-		(property "Reference" "U3"
+		(property "Reference" "U4"
 			(at 157.48 105.41 90)
 			(effects
 				(font
@@ -3354,7 +3586,7 @@
 		(instances
 			(project "Carte-Principale"
 				(path "/88b0dd29-ac24-4c5d-804c-fc642ecf6263/de945202-06d9-4619-881a-1edba2d78bfe"
-					(reference "U3")
+					(reference "U4")
 					(unit 2)
 				)
 			)
@@ -3370,7 +3602,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35375936-dbdf-4c68-bf11-e21a39606576")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR037"
 			(at 57.15 81.28 0)
 			(effects
 				(font
@@ -3420,7 +3652,7 @@
 		(instances
 			(project "Carte-Principale"
 				(path "/88b0dd29-ac24-4c5d-804c-fc642ecf6263/de945202-06d9-4619-881a-1edba2d78bfe"
-					(reference "#PWR07")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -3436,7 +3668,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b832877-9a20-496d-b214-ea1d765cd9b8")
-		(property "Reference" "C2"
+		(property "Reference" "C3"
 			(at 157.4736 116.84 90)
 			(effects
 				(font
@@ -3452,7 +3684,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 157.48 123.19 0)
 			(effects
 				(font
@@ -3488,7 +3720,7 @@
 		(instances
 			(project "Carte-Principale"
 				(path "/88b0dd29-ac24-4c5d-804c-fc642ecf6263/de945202-06d9-4619-881a-1edba2d78bfe"
-					(reference "C2")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -3504,7 +3736,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79b37edf-4b59-426d-91a0-81aa8ffa2c71")
-		(property "Reference" "J2"
+		(property "Reference" "J7"
 			(at 166.37 64.7699 0)
 			(effects
 				(font
@@ -3522,7 +3754,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
 			(at 163.83 64.77 0)
 			(effects
 				(font
@@ -3558,7 +3790,7 @@
 		(instances
 			(project "Carte-Principale"
 				(path "/88b0dd29-ac24-4c5d-804c-fc642ecf6263/de945202-06d9-4619-881a-1edba2d78bfe"
-					(reference "J2")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -3574,7 +3806,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "888aa0c1-a3a3-40eb-a2f3-666b5b23f84d")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR035"
 			(at 57.15 66.04 0)
 			(effects
 				(font
@@ -3624,7 +3856,7 @@
 		(instances
 			(project "Carte-Principale"
 				(path "/88b0dd29-ac24-4c5d-804c-fc642ecf6263/de945202-06d9-4619-881a-1edba2d78bfe"
-					(reference "#PWR08")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -3640,7 +3872,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8fd99e1c-10c6-4d2e-b288-df3bdf8128b8")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR039"
 			(at 101.6 80.01 0)
 			(effects
 				(font
@@ -3690,7 +3922,7 @@
 		(instances
 			(project "Carte-Principale"
 				(path "/88b0dd29-ac24-4c5d-804c-fc642ecf6263/de945202-06d9-4619-881a-1edba2d78bfe"
-					(reference "#PWR09")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -3706,7 +3938,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a11bbb3e-6fb2-475d-a335-e4401fb2f908")
-		(property "Reference" "C3"
+		(property "Reference" "C4"
 			(at 157.4736 138.43 90)
 			(effects
 				(font
@@ -3722,7 +3954,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 157.48 144.78 0)
 			(effects
 				(font
@@ -3758,7 +3990,7 @@
 		(instances
 			(project "Carte-Principale"
 				(path "/88b0dd29-ac24-4c5d-804c-fc642ecf6263/de945202-06d9-4619-881a-1edba2d78bfe"
-					(reference "C3")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -3774,7 +4006,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c452fa49-42fa-432a-83cc-426d6bb7ebe8")
-		(property "Reference" "J1"
+		(property "Reference" "J6"
 			(at 166.37 57.1499 0)
 			(effects
 				(font
@@ -3792,7 +4024,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
 			(at 163.83 57.15 0)
 			(effects
 				(font
@@ -3828,7 +4060,7 @@
 		(instances
 			(project "Carte-Principale"
 				(path "/88b0dd29-ac24-4c5d-804c-fc642ecf6263/de945202-06d9-4619-881a-1edba2d78bfe"
-					(reference "J1")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -3844,7 +4076,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0ae1e1f-b72a-4841-9120-37502b083c0e")
-		(property "Reference" "U5"
+		(property "Reference" "U6"
 			(at 86.36 158.75 0)
 			(effects
 				(font
@@ -3908,7 +4140,7 @@
 		(instances
 			(project "Carte-Principale"
 				(path "/88b0dd29-ac24-4c5d-804c-fc642ecf6263/de945202-06d9-4619-881a-1edba2d78bfe"
-					(reference "U5")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -3924,7 +4156,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d11f5ef3-d086-4767-be76-b2b546ddf430")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 157.48 83.82 90)
 			(effects
 				(font
@@ -3988,7 +4220,7 @@
 		(instances
 			(project "Carte-Principale"
 				(path "/88b0dd29-ac24-4c5d-804c-fc642ecf6263/de945202-06d9-4619-881a-1edba2d78bfe"
-					(reference "U2")
+					(reference "U3")
 					(unit 2)
 				)
 			)
@@ -4004,7 +4236,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3efe308-5cf1-4e94-a3e3-6e198d110f68")
-		(property "Reference" "U3"
+		(property "Reference" "U4"
 			(at 86.36 106.68 0)
 			(effects
 				(font
@@ -4068,7 +4300,7 @@
 		(instances
 			(project "Carte-Principale"
 				(path "/88b0dd29-ac24-4c5d-804c-fc642ecf6263/de945202-06d9-4619-881a-1edba2d78bfe"
-					(reference "U3")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -4084,7 +4316,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2c36967-2b41-4020-9dea-8787ca787e59")
-		(property "Reference" "C1"
+		(property "Reference" "C2"
 			(at 157.4736 95.25 90)
 			(effects
 				(font
@@ -4100,7 +4332,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 157.48 101.6 0)
 			(effects
 				(font
@@ -4136,7 +4368,77 @@
 		(instances
 			(project "Carte-Principale"
 				(path "/88b0dd29-ac24-4c5d-804c-fc642ecf6263/de945202-06d9-4619-881a-1edba2d78bfe"
-					(reference "C1")
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_2Pole")
+		(at 106.68 120.65 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e927003c-583f-4b32-b7d3-5e04b87f04e9")
+		(property "Reference" "TP3"
+			(at 109.22 119.3799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Test_PWM"
+			(at 109.22 121.9199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
+			(at 106.68 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2-polar test point"
+			(at 106.68 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd937fe6-56bd-4f67-95ec-5771b0384c89")
+		)
+		(pin "2"
+			(uuid "3bfc6cce-f153-4dcf-914e-c10686b795ef")
+		)
+		(instances
+			(project "Carte-Principale"
+				(path "/88b0dd29-ac24-4c5d-804c-fc642ecf6263/de945202-06d9-4619-881a-1edba2d78bfe"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -4152,7 +4454,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0a0c044-571d-4fb8-a768-1b30c634a63c")
-		(property "Reference" "U5"
+		(property "Reference" "U6"
 			(at 157.48 147.32 90)
 			(effects
 				(font
@@ -4216,8 +4518,77 @@
 		(instances
 			(project "Carte-Principale"
 				(path "/88b0dd29-ac24-4c5d-804c-fc642ecf6263/de945202-06d9-4619-881a-1edba2d78bfe"
-					(reference "U5")
+					(reference "U6")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_2Pole")
+		(at 63.5 128.27 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fc5f7d6a-9b8a-4c01-ad0b-8aa43cbe75a0")
+		(property "Reference" "TP4"
+			(at 57.15 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Test_DIR"
+			(at 46.99 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
+			(at 63.5 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2-polar test point"
+			(at 63.5 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f353bc2b-0e62-4462-872c-00fff740e748")
+		)
+		(pin "1"
+			(uuid "61ad7713-298d-4497-a022-2bf74a9fc574")
+		)
+		(instances
+			(project "Carte-Principale"
+				(path "/88b0dd29-ac24-4c5d-804c-fc642ecf6263/de945202-06d9-4619-881a-1edba2d78bfe"
+					(reference "TP4")
+					(unit 1)
 				)
 			)
 		)
