@@ -215,7 +215,15 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "no_connect_connected|1028700|1206500|c54b20e5-2b31-4f3f-a4ad-9bcffe5fddff|df312fbb-ee06-46b7-a1a1-0b0039af1d5d|/88b0dd29-ac24-4c5d-804c-fc642ecf6263||",
+      "pin_to_pin|571500|635000|f0b835e6-7a85-4653-9512-c40c54145b00|10bba44b-7b5b-4ef4-bdd5-fcaafd0d0b81|/88b0dd29-ac24-4c5d-804c-fc642ecf6263/7eed38b4-f789-4722-81cb-a4e4542631b4|/88b0dd29-ac24-4c5d-804c-fc642ecf6263/7eed38b4-f789-4722-81cb-a4e4542631b4|/88b0dd29-ac24-4c5d-804c-fc642ecf6263/de945202-06d9-4619-881a-1edba2d78bfe",
+      "pin_to_pin|571500|635000|f0b835e6-7a85-4653-9512-c40c54145b00|10bba44b-7b5b-4ef4-bdd5-fcaafd0d0b83|/88b0dd29-ac24-4c5d-804c-fc642ecf6263/7eed38b4-f789-4722-81cb-a4e4542631b4|/88b0dd29-ac24-4c5d-804c-fc642ecf6263/7eed38b4-f789-4722-81cb-a4e4542631b4|/88b0dd29-ac24-4c5d-804c-fc642ecf6263/de945202-06d9-4619-881a-1edba2d78bfe",
+      "pin_to_pin|571500|635000|f0b835e6-7a85-4653-9512-c40c54145b00|817355a0-2f11-485c-a0a8-acbf7dea41d4|/88b0dd29-ac24-4c5d-804c-fc642ecf6263/7eed38b4-f789-4722-81cb-a4e4542631b4|/88b0dd29-ac24-4c5d-804c-fc642ecf6263/7eed38b4-f789-4722-81cb-a4e4542631b4|/88b0dd29-ac24-4c5d-804c-fc642ecf6263/de945202-06d9-4619-881a-1edba2d78bfe",
+      "pin_to_pin|571500|635000|f0b835e6-7a85-4653-9512-c40c54145b00|817355a0-2f11-485c-a0a8-acbf7dea41d5|/88b0dd29-ac24-4c5d-804c-fc642ecf6263/7eed38b4-f789-4722-81cb-a4e4542631b4|/88b0dd29-ac24-4c5d-804c-fc642ecf6263/7eed38b4-f789-4722-81cb-a4e4542631b4|/88b0dd29-ac24-4c5d-804c-fc642ecf6263/de945202-06d9-4619-881a-1edba2d78bfe",
+      "power_pin_not_driven|1028700|241300|714b4c53-2044-4496-a4f7-7a7e22865fa9|00000000-0000-0000-0000-000000000000|/88b0dd29-ac24-4c5d-804c-fc642ecf6263|/88b0dd29-ac24-4c5d-804c-fc642ecf6263|",
+      "power_pin_not_driven|2374900|368300|e62a4776-86bd-42e4-a9b0-2fe95c62e3f3|00000000-0000-0000-0000-000000000000|/88b0dd29-ac24-4c5d-804c-fc642ecf6263|/88b0dd29-ac24-4c5d-804c-fc642ecf6263|"
+    ],
     "meta": {
       "version": 0
     },
@@ -415,7 +423,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -456,7 +464,9 @@
     "meta": {
       "version": 3
     },
-    "net_colors": null,
+    "net_colors": {
+      "+12V": "rgb(255, 159, 23)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": []
   },
@@ -615,6 +625,24 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -686,10 +714,6 @@
     [
       "d641269b-1187-4929-99a2-e1e683ab1f5a",
       "IHM"
-    ],
-    [
-      "a78db518-5c49-4494-8971-e52a08374810",
-      "Divers"
     ]
   ],
   "text_variables": {}
