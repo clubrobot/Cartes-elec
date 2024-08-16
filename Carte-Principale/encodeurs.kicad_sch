@@ -2805,7 +2805,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01ba3335-a872-4e1f-b6ed-3c9c7ad8b41a")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR034"
 			(at 125.73 97.79 0)
 			(effects
 				(font
@@ -2855,7 +2855,7 @@
 		(instances
 			(project "Carte-Principale"
 				(path "/88b0dd29-ac24-4c5d-804c-fc642ecf6263/a2923913-7939-4f75-8694-93f1ab74a018"
-					(reference "#PWR040")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -2871,7 +2871,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1898e842-f2e5-4f8e-90d5-18d3646848b9")
-		(property "Reference" "TP8"
+		(property "Reference" "TP7"
 			(at 40.64 77.4699 90)
 			(effects
 				(font
@@ -2925,7 +2925,7 @@
 		(instances
 			(project "Carte-Principale"
 				(path "/88b0dd29-ac24-4c5d-804c-fc642ecf6263/a2923913-7939-4f75-8694-93f1ab74a018"
-					(reference "TP8")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -2941,7 +2941,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24149b2b-267b-435b-ac58-fdfac3a96d6f")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR027"
 			(at 125.73 36.83 0)
 			(effects
 				(font
@@ -2991,7 +2991,7 @@
 		(instances
 			(project "Carte-Principale"
 				(path "/88b0dd29-ac24-4c5d-804c-fc642ecf6263/a2923913-7939-4f75-8694-93f1ab74a018"
-					(reference "#PWR033")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -3008,7 +3008,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d5b1193-bef4-44ee-a864-8f22d22b7508")
-		(property "Reference" "J12"
+		(property "Reference" "J9"
 			(at 143.51 81.2801 0)
 			(effects
 				(font
@@ -3026,7 +3026,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-08A_1x08_P2.54mm_Vertical"
 			(at 142.24 78.74 0)
 			(effects
 				(font
@@ -3080,7 +3080,7 @@
 		(instances
 			(project "Carte-Principale"
 				(path "/88b0dd29-ac24-4c5d-804c-fc642ecf6263/a2923913-7939-4f75-8694-93f1ab74a018"
-					(reference "J12")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -3096,7 +3096,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3fac7514-94f2-4d72-bcf4-22aae56c933b")
-		(property "Reference" "TP7"
+		(property "Reference" "TP6"
 			(at 40.64 49.5299 90)
 			(effects
 				(font
@@ -3150,7 +3150,7 @@
 		(instances
 			(project "Carte-Principale"
 				(path "/88b0dd29-ac24-4c5d-804c-fc642ecf6263/a2923913-7939-4f75-8694-93f1ab74a018"
-					(reference "TP7")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -3166,7 +3166,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4493e9c8-9560-4092-95d4-ba7a1f3b786b")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR032"
 			(at 125.73 74.93 0)
 			(effects
 				(font
@@ -3216,7 +3216,7 @@
 		(instances
 			(project "Carte-Principale"
 				(path "/88b0dd29-ac24-4c5d-804c-fc642ecf6263/a2923913-7939-4f75-8694-93f1ab74a018"
-					(reference "#PWR038")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -3232,7 +3232,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54a42816-247f-49b1-bdb4-f773c6589b1f")
-		(property "Reference" "R9"
+		(property "Reference" "R8"
 			(at 88.9 73.6599 0)
 			(effects
 				(font
@@ -3250,7 +3250,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 86.36 74.93 0)
 			(effects
 				(font
@@ -3286,7 +3286,7 @@
 		(instances
 			(project "Carte-Principale"
 				(path "/88b0dd29-ac24-4c5d-804c-fc642ecf6263/a2923913-7939-4f75-8694-93f1ab74a018"
-					(reference "R9")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -3302,7 +3302,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6baceae2-8165-441a-9cde-e113bb43c0f8")
-		(property "Reference" "R8"
+		(property "Reference" "R7"
 			(at 88.9 53.3399 0)
 			(effects
 				(font
@@ -3320,7 +3320,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 86.36 54.61 0)
 			(effects
 				(font
@@ -3356,7 +3356,7 @@
 		(instances
 			(project "Carte-Principale"
 				(path "/88b0dd29-ac24-4c5d-804c-fc642ecf6263/a2923913-7939-4f75-8694-93f1ab74a018"
-					(reference "R8")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -3371,7 +3371,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "751453cb-5848-4dd3-b858-3eb4821fc5c2")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR030"
 			(at 93.98 62.23 0)
 			(effects
 				(font
@@ -3422,7 +3422,7 @@
 		(instances
 			(project "Carte-Principale"
 				(path "/88b0dd29-ac24-4c5d-804c-fc642ecf6263/a2923913-7939-4f75-8694-93f1ab74a018"
-					(reference "#PWR036")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -3438,7 +3438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85b7d3a9-46cc-454c-b45c-7f187f47a3a1")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR028"
 			(at 72.39 31.75 0)
 			(effects
 				(font
@@ -3488,7 +3488,7 @@
 		(instances
 			(project "Carte-Principale"
 				(path "/88b0dd29-ac24-4c5d-804c-fc642ecf6263/a2923913-7939-4f75-8694-93f1ab74a018"
-					(reference "#PWR034")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -3505,7 +3505,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a246e7f5-2c6e-4343-accc-d2ccf3a9e17d")
-		(property "Reference" "J11"
+		(property "Reference" "J8"
 			(at 143.51 43.1801 0)
 			(effects
 				(font
@@ -3523,7 +3523,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-08A_1x08_P2.54mm_Vertical"
 			(at 142.24 40.64 0)
 			(effects
 				(font
@@ -3577,7 +3577,7 @@
 		(instances
 			(project "Carte-Principale"
 				(path "/88b0dd29-ac24-4c5d-804c-fc642ecf6263/a2923913-7939-4f75-8694-93f1ab74a018"
-					(reference "J11")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -3593,7 +3593,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a67fcc0b-5900-4ae3-b24f-4242ffb30478")
-		(property "Reference" "R7"
+		(property "Reference" "R6"
 			(at 88.9 45.7199 0)
 			(effects
 				(font
@@ -3611,7 +3611,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 86.36 46.99 0)
 			(effects
 				(font
@@ -3647,7 +3647,7 @@
 		(instances
 			(project "Carte-Principale"
 				(path "/88b0dd29-ac24-4c5d-804c-fc642ecf6263/a2923913-7939-4f75-8694-93f1ab74a018"
-					(reference "R7")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -3662,7 +3662,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b8628d36-e8d1-472a-8a61-1fd59dc20a49")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR031"
 			(at 83.82 67.31 0)
 			(effects
 				(font
@@ -3713,7 +3713,7 @@
 		(instances
 			(project "Carte-Principale"
 				(path "/88b0dd29-ac24-4c5d-804c-fc642ecf6263/a2923913-7939-4f75-8694-93f1ab74a018"
-					(reference "#PWR037")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -3729,7 +3729,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1ef2487-6f9e-41c6-a310-3332ecb9fdc6")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR033"
 			(at 72.39 87.63 0)
 			(effects
 				(font
@@ -3779,7 +3779,7 @@
 		(instances
 			(project "Carte-Principale"
 				(path "/88b0dd29-ac24-4c5d-804c-fc642ecf6263/a2923913-7939-4f75-8694-93f1ab74a018"
-					(reference "#PWR039")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -3795,7 +3795,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d215770a-4a84-489b-b2b9-fe50c072ac9b")
-		(property "Reference" "R10"
+		(property "Reference" "R9"
 			(at 88.9 81.2799 0)
 			(effects
 				(font
@@ -3813,7 +3813,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 86.36 82.55 0)
 			(effects
 				(font
@@ -3849,7 +3849,7 @@
 		(instances
 			(project "Carte-Principale"
 				(path "/88b0dd29-ac24-4c5d-804c-fc642ecf6263/a2923913-7939-4f75-8694-93f1ab74a018"
-					(reference "R10")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -3977,7 +3977,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd5bc117-b27f-4013-9734-435eb131e078")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR029"
 			(at 125.73 59.69 0)
 			(effects
 				(font
@@ -4027,7 +4027,7 @@
 		(instances
 			(project "Carte-Principale"
 				(path "/88b0dd29-ac24-4c5d-804c-fc642ecf6263/a2923913-7939-4f75-8694-93f1ab74a018"
-					(reference "#PWR035")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
