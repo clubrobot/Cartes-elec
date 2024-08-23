@@ -3008,7 +3008,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d5b1193-bef4-44ee-a864-8f22d22b7508")
-		(property "Reference" "J7"
+		(property "Reference" "J8"
 			(at 143.51 81.2801 0)
 			(effects
 				(font
@@ -3080,7 +3080,7 @@
 		(instances
 			(project "Carte-Principale"
 				(path "/88b0dd29-ac24-4c5d-804c-fc642ecf6263/a2923913-7939-4f75-8694-93f1ab74a018"
-					(reference "J7")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -3302,7 +3302,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6baceae2-8165-441a-9cde-e113bb43c0f8")
-		(property "Reference" "R30"
+		(property "Reference" "R28"
 			(at 88.9 53.3399 0)
 			(effects
 				(font
@@ -3356,7 +3356,7 @@
 		(instances
 			(project "Carte-Principale"
 				(path "/88b0dd29-ac24-4c5d-804c-fc642ecf6263/a2923913-7939-4f75-8694-93f1ab74a018"
-					(reference "R30")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -3505,7 +3505,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a246e7f5-2c6e-4343-accc-d2ccf3a9e17d")
-		(property "Reference" "J12"
+		(property "Reference" "J13"
 			(at 143.51 43.1801 0)
 			(effects
 				(font
@@ -3577,7 +3577,7 @@
 		(instances
 			(project "Carte-Principale"
 				(path "/88b0dd29-ac24-4c5d-804c-fc642ecf6263/a2923913-7939-4f75-8694-93f1ab74a018"
-					(reference "J12")
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -3593,7 +3593,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a67fcc0b-5900-4ae3-b24f-4242ffb30478")
-		(property "Reference" "R28"
+		(property "Reference" "R30"
 			(at 88.9 45.7199 0)
 			(effects
 				(font
@@ -3647,7 +3647,7 @@
 		(instances
 			(project "Carte-Principale"
 				(path "/88b0dd29-ac24-4c5d-804c-fc642ecf6263/a2923913-7939-4f75-8694-93f1ab74a018"
-					(reference "R28")
+					(reference "R30")
 					(unit 1)
 				)
 			)
