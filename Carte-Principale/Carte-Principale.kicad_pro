@@ -496,7 +496,8 @@
       "+12VA": "rgb(255, 0, 0)",
       "+3.3V": "rgb(0, 0, 255)",
       "+5V": "rgb(0, 255, 0)",
-      "+5VA": "rgb(0, 255, 255)"
+      "+5VA": "rgb(0, 255, 255)",
+      "GND": "rgb(255, 255, 0)"
     },
     "netclass_assignments": null,
     "netclass_patterns": [

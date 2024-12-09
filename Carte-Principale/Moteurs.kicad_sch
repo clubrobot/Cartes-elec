@@ -2921,6 +2921,36 @@
 			"AABsQxABAAA2kf4/OMGeKYTmfTAAAAAASUVORK5CYII="
 		)
 	)
+	(text "Repris des années précédentes, marche bien"
+		(exclude_from_sim no)
+		(at 143.51 20.32 0)
+		(effects
+			(font
+				(size 5 5)
+			)
+		)
+		(uuid "202df363-daa8-4fd9-94ec-f02edaeb0188")
+	)
+	(text "Driver moteur du club robot (basé sur un drv8844)"
+		(exclude_from_sim no)
+		(at 97.79 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "74fcc521-cfbe-4d57-8bcb-78abe493f1fe")
+	)
+	(text "Switch des de direction des moteurs"
+		(exclude_from_sim no)
+		(at 120.65 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fe66163a-e297-4ebc-ba9c-7773eaefa56c")
+	)
 	(label "IN4"
 		(at 72.39 151.13 180)
 		(fields_autoplaced yes)
@@ -3775,10 +3805,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2fb8f649-4430-49aa-8fd8-b81fe2c71174")
 		(property "Reference" "DRV1"
-			(at 96.52 30.48 0)
+			(at 96.52 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.0795)

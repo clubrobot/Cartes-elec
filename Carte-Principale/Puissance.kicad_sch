@@ -1588,16 +1588,6 @@
 		)
 		(uuid "7255c786-ad47-4401-b269-d20695455329")
 	)
-	(text "Todo: faire BMS sur pcb annexe\n"
-		(exclude_from_sim no)
-		(at 115.57 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c50dc4cc-b160-4890-bd8e-78d6923b5333")
-	)
 	(symbol
 		(lib_id "Device:R")
 		(at 157.48 76.2 0)

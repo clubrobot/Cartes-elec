@@ -2676,6 +2676,16 @@
 		)
 		(uuid "fef70640-0df1-49e9-aafe-166af25795a3")
 	)
+	(text "Comme les années précédentes"
+		(exclude_from_sim no)
+		(at 72.39 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "59dc60b4-5a07-44bf-be8d-246874b308f0")
+	)
 	(label "A+_GAUCHE"
 		(at 125.73 45.72 0)
 		(fields_autoplaced yes)
