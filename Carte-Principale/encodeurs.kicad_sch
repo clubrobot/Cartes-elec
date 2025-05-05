@@ -6,8 +6,9 @@
 	(paper "A5")
 	(title_block
 		(title "Carte Principale")
-		(date "2024-08-12")
-		(company "CRINSA")
+		(date "2024-12-27")
+		(rev "V1")
+		(company "CRINSA - Boris HILKENS")
 		(comment 1 "Carte de contrôle pour le robot")
 	)
 	(lib_symbols

@@ -6,8 +6,9 @@
 	(paper "A3")
 	(title_block
 		(title "Carte Principale")
-		(date "2024-08-12")
-		(company "CRINSA")
+		(date "2024-12-27")
+		(rev "V1")
+		(company "CRINSA - Boris HILKENS")
 		(comment 1 "Carte de contrôle pour le robot")
 	)
 	(lib_symbols
@@ -11361,6 +11362,17 @@
 			"EREREWkFBjdERERERKQVdFp26JUqPyciIiIiInpnPfC7Kz/TTKe8W1UGN0REREREVOSxWxoRERER"
 			"EWkFBjdERERERKQVGNwQEREREZEWAP4PH32nGdv4l8oAAAAASUVORK5CYII="
 		)
+	)
+	(text "TODO: \n-tirette\n-Revoir forme PCB pour btn reset et leds user\n-Meilleurs connecteurs Alim ?\n"
+		(exclude_from_sim no)
+		(at 262.89 167.64 0)
+		(effects
+			(font
+				(size 4 4)
+			)
+			(justify left)
+		)
+		(uuid "60c7c699-dea6-43eb-a021-8205a68311fd")
 	)
 	(text "TIM23 -> Encodeur Droit (PF6 & PF7)\nTIM24 -> Encodeur Gauche (PF11 & PF12)\nTIM1 -> PWM Moteurs (PE9 & PE11)\nUSART6 -> AX12\nUSART3 -> Debug + Serial console\nI2C1 -> Écran + Servos + ESP32?\nI2C2 -> Sensors\n"
 		(exclude_from_sim no)

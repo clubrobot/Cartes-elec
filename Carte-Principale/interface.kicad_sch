@@ -6,8 +6,9 @@
 	(paper "A5")
 	(title_block
 		(title "Carte Principale")
-		(date "2024-08-12")
-		(company "CRINSA")
+		(date "2024-12-27")
+		(rev "V1")
+		(company "CRINSA - Boris HILKENS")
 		(comment 1 "Carte de contrôle pour le robot")
 	)
 	(lib_symbols
@@ -4266,7 +4267,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 132.08 42.418 90)
 			(effects
 				(font

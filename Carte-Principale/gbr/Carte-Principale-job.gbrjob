@@ -5,17 +5,17 @@
       "Application": "Pcbnew",
       "Version": "8.0.2-rc1"
     },
-    "CreationDate": "2024-12-09T19:43:04+01:00"
+    "CreationDate": "2024-12-28T13:04:23+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "Carte-Principale",
       "GUID": "43617274-652d-4507-9269-6e636970616c",
-      "Revision": "rev?"
+      "Revision": "V1"
     },
     "Size": {
-      "X": 140.085,
-      "Y": 118.16
+      "X": 111.05,
+      "Y": 119.05
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
